@@ -1,10 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
-    background-color: blanchedalmond;
-    color: blue;
+}
+a{
+    text-decoration: none;
+
+}
+/* ======== navber ====== */
+ul{
+    list-style: none;
+}
+.active a{
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.navber{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+
 }
 .logo{
-    margin: 0;
-    width: 150px;
-    height: 50px;
-    background:#fff;
+    font-size: 7rem;
+    color: rgb(177, 185, 22);
+    margin: 0 350px;
+
 }
+.nav-Items{
+    display: flex;
+    align-items: center;
+}
+.nav-Items li{
+    font-size: 5rem ;
+    margin:0 30px;
+    color: whitesmoke;
+}
+header{
+    width: 100%;
+    height:100vh;
+    background-image: url('./images/School300.jpg');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-content{
+
+    color: whitesmoke;
+    text-align: center;
+}
+.header-content h1{
+    font-size: 10rem;
+    text-align: center;
+}
+.line{
+    width: 1000px;
+    height: 15px;
+    background: rgb(214, 7, 7);
+    border-radius: 30px;
+   margin: 5px auto;
+}
+.header-content h2{
+    font-size: 5rem;
+    text-align: center;
+    padding: 50px 0;
+}
+.header-content a{
+    font-size: 10rem;
+    align-items: center;
+    padding: 20px 50px;
+}
+.ctn{
+    background:  red;
+    border-radius: 30px;
+    color:aliceblue;
+    align-items: center;
+}
+/* .BlueShadow{
+    width: 100%;
+    height:100vh;
+    background: #09148a;
+    overflow: auto;
+    display: flex;
+} */
+
+     /* ==== for mobile ===== */
