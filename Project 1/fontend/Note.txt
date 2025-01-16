@@ -1,3 +1,4 @@
+ ====navbar=====
  <nav class="navber">
         <div class="logo">logo</div>
         <ul class="nav-Items">
@@ -8,3 +9,7 @@
           <li class="ctn"><a href="#">Conttact Us</a></li>
         </ul>
        </nav>
+
+    =====navber css ======
+<!-- bootstrap javascript cdm link  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
