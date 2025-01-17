@@ -1,3 +1,15 @@
+// ====navber responsib====
+const manuBtn = document.querySelector('.manu-btn')
+    const navlinks = document.querySelector( '.nav-links')
+    manuBtn.addEventListener('click',()=>{
+        navlinks.classList.toggle('mobile-manu')
+    })
+
+// ====end navber responsib====
+
+
+
+
 var i = 0;
 var images = [];
 var time = 5000;
