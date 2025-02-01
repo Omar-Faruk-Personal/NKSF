@@ -410,3 +410,49 @@ header a:hover {
     }
 
 }
+
+/* ==== image slider ==== */
+.image-slide{
+    width: 100%;
+    height: 95vh;
+    margin:0 auto;
+    background-color:#052e59;
+    /* position: relative; */
+}
+
+.image-slide img{
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+
+}
+.ImgChangeButton {
+    width: 80%;
+    display: flex;
+    position: absolute;
+    top: 350px;
+    left: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+ .ImgChangeButton button{
+    font-size: 30px;
+    background: rgba(0,0,0,.5);
+    border: 2px solid rgb(7, 9, 69);
+    border-radius: 30px;
+    padding: 5px 10px;
+    color: #aa1b1b;
+    opacity: 40%;
+ }
+ .ImgChangeButton button:hover{
+    font-size: 50px;
+    background: rgba(12, 3, 104, 0.5);
+    color: whitesmoke;
+    border: 2px solid rgb(214, 36, 8);
+    border-radius: 30px;
+    padding: 5px 10px;
+    opacity: 100%;
+    transition: all ease-out .5s;
+ }
+
+ /* ==== image slider ==== */
