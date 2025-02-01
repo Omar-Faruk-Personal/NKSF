@@ -209,12 +209,12 @@ header a:hover{
 }
 .ImgChangeButton {
     width: 80%;
-    /* display: flex;
+    display: flex;
     position: absolute;
-    top: 350px;
-    left: auto;
+    top: 45vh;
+    left: 15vh;
     justify-content: space-between;
-    align-items: center; */
+    align-items: center;
 }
  .ImgChangeButton button{
     font-size: 30px;
@@ -242,12 +242,12 @@ header a:hover{
     width:70%;
     height: auto;
     /* background-color: #b07903; */
-    /* display: flex;
-    position:absolute;
-    top: 600px;
-    left: 150px;
+    display: flex;
+    position:relative;
+    top: -600px;
+    left:150px;
     justify-content: space-between;
-    align-items: center; */
+    align-items: center;
     text-align: center;
     color: rgba(255,255,255,.8);
  }
